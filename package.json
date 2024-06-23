@@ -3,8 +3,13 @@
   "private": true,
   "module": "index.ts",
   "type": "module",
+  "packageManager": "bun@1.1.16",
+  "scripts": {
+    "dev": "turbo dev"
+  },
   "devDependencies": {
-    "@types/bun": "latest"
+    "@types/bun": "latest",
+    "turbo": "^2.0.4"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"

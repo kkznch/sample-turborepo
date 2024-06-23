@@ -3,6 +3,7 @@
   "private": true,
   "sideEffects": false,
   "type": "module",
+  "packageManager": "bun@1.1.16",
   "scripts": {
     "build": "remix vite:build",
     "dev": "remix vite:dev",

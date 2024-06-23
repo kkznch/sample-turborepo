@@ -1,5 +1,6 @@
 {
   "name": "backend",
+  "packageManager": "bun@1.1.16",
   "scripts": {
     "dev": "bun run --hot src/index.ts"
   },
